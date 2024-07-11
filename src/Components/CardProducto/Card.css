@@ -1,0 +1,38 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 200px;
+  height: 320px;
+  border-radius: 10px;
+  background-color: #e2e2dc;
+  padding-bottom: 20px;
+  box-shadow: 3px 6px 10px #3c3a3a4e;
+}
+.productoBtn {
+  padding: 5px 10px 5px 10px;
+  border-radius: 5px;
+  background-color: rgb(106, 106, 106);
+  border: none;
+  color: white;
+  margin-top: 10px;
+  width: 90%;
+}
+.productoBtn:hover {
+  transition: 0.4s;
+  background-color: black;
+}
+.precioProducto {
+  font-weight: 400;
+  font-size: 15px;
+}
+.imagenProducto {
+  width: 200px;
+  height: 200px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.nombreProducto {
+  text-align: center;
+}

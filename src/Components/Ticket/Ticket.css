@@ -1,0 +1,34 @@
+.divTicket {
+  width: 30%;
+  margin: 0 auto;
+}
+.liTicket {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 10px;
+}
+hr {
+  margin-top: 5px;
+}
+.confirmarCompraBtn {
+  background-color: gray;
+  padding: 5px 10px 5px 10px;
+  border: none;
+  border-radius: 5px;
+  margin-top: 20px;
+  color: white;
+}
+.confirmarCompraBtn:hover {
+  transition: 0.4s;
+  background-color: black;
+}
+.precioTotal {
+  margin-top: 20px;
+}
+@media (500px > width) {
+  .divTicket {
+    transform: scale(0.8);
+  }
+}

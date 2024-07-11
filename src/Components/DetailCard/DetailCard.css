@@ -1,0 +1,171 @@
+.detailCardDiv {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 40%;
+  margin: 0 auto;
+  background-color: #e2e2dc;
+  border-radius: 10px;
+  height: max-content;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.imagenDetalleProducto {
+  width: 50%;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+.divSelector {
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+  align-items: center;
+}
+.color {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 1px solid rgba(0, 0, 0, 0.537);
+}
+.color:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+.seleccionado {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 2);
+}
+.contenidosDetalle {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  align-items: center;
+}
+.divSelectorTamaño {
+  display: inline-flex;
+  gap: 20px;
+  margin: 10px;
+  align-items: center;
+}
+.divSelectorTamaño label {
+  display: inline-flex;
+  gap: 10px;
+}
+.productoDetalleBtn {
+  padding: 10px;
+  border-radius: 5px;
+  background-color: rgb(106, 106, 106);
+  border: none;
+  color: white;
+  margin: 0 auto;
+  margin-top: 20px;
+  width: 90%;
+}
+.productoDetalleBtn:hover {
+  transition: 0.4s;
+  background-color: black;
+}
+.descripcionProducto {
+  font-weight: 400;
+}
+.selector-container-color,
+.selector-container {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  margin-top: 10px;
+}
+.selector-title {
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+.selector {
+  width: 100px;
+  padding: 5px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: white;
+  appearance: none;
+  cursor: pointer;
+}
+.selector:focus {
+  outline: none;
+  border-color: #007bff;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+.precioProducto {
+  margin-top: 10px;
+}
+@media (1024px <= width) {
+  .detailCardDiv {
+    width: 40%;
+  }
+  .imagenDetalleProducto {
+    width: 300px;
+    height: 300px;
+  }
+}
+@media (768px <= width <= 1023px) {
+  .detailCardDiv {
+    width: 70%;
+  }
+  .descripcionProducto {
+    font-size: 12px;
+    margin: 10px;
+  }
+  .imagenDetalleProducto {
+    width: 300px;
+    height: 300px;
+  }
+  .productoDetalleBtn {
+    width: 60%;
+  }
+  .contenidosDetalle {
+    padding: 10px;
+  }
+}
+@media (768px > width) {
+  .detailCardDiv {
+    width: min-content;
+    flex-direction: column;
+    margin-bottom: 100px;
+    padding-bottom: 20px;
+  }
+  .imagenDetalleProducto {
+    width: 300px;
+    height: 300px;
+    margin-bottom: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 0;
+  }
+  .nombreProducto {
+    font-size: 15px;
+  }
+  .descripcionProducto {
+    font-size: 12px;
+    margin-bottom: 5px;
+  }
+  .productoDetalleBtn {
+    width: 90%;
+    padding: 5px;
+    font-size: 12px;
+    margin-top: 10px;
+  }
+  .selector-container {
+    margin-bottom: 5px;
+    align-items: baseline;
+    height: max-content;
+  }
+  .precioProducto {
+    font-size: 12px;
+  }
+  .divSelector {
+    margin-top: 10px;
+  }
+  .selector {
+    height: 30px;
+    color: black;
+  }
+  .selector-title {
+    font-size: 12px;
+  }
+}

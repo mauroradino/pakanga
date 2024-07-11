@@ -1,0 +1,17 @@
+.divContenidoCarrito {
+  display: flex;
+  justify-content: space-evenly;
+  width: 90%;
+  margin: 0 auto;
+}
+.cardsCarrito {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  gap: 20px;
+}
+@media (500px > width) {
+  .divContenidoCarrito {
+    width: 80%;
+  }
+}

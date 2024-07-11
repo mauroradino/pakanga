@@ -1,0 +1,94 @@
+.cardCarrito {
+  background-color: #e2e2dc;
+  border-radius: 10px;
+  align-items: center;
+}
+.btnEliminar {
+  background-color: gray;
+  padding: 5px 10px 5px 10px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+}
+@media (width >= 1020px) {
+  .cardCarrito {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding-right: 10px;
+    align-items: center;
+  }
+  .imagenCardCarrito {
+    width: 30%;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+  }
+  .tituloCardCarrito {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+}
+@media (1019px >= width >= 768px) {
+  .cardCarrito {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding-right: 10px;
+  }
+  .imagenCardCarrito {
+    width: 30%;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+  }
+  .contenidoCardCarrito {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+  }
+  .tituloCardCarrito {
+    font-size: 90%;
+  }
+  .btnEliminar {
+    margin-top: 20px;
+  }
+  .btnEliminar:hover {
+    transition: 0.4s;
+    background-color: black;
+  }
+}
+@media (768px > width) {
+  .cardCarrito {
+    flex-direction: column;
+    width: 80%;
+    margin: 0 auto;
+    padding-bottom: 10px;
+    padding-right: 0;
+  }
+  .tituloCardCarrito {
+    font-size: 15px;
+  }
+  .imagenCardCarrito {
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+  .contenidoCardCarrito {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .btnEliminar {
+    margin: 10px;
+    transform: scale(0.8);
+  }
+  .precioCardCarrito {
+    text-align: center;
+    font-size: 12px;
+  }
+}
+@media (width < 500px) {
+  .tituloCardCarrito {
+    font-size: 10px;
+  }
+}

@@ -1,0 +1,24 @@
+.divProductos {
+  display: flex;
+  flex-direction: column;
+}
+.divProducto {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 80%;
+  margin: 0 auto;
+  gap: 20px;
+}
+.titulo {
+  text-align: center;
+  font-size: 40px;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+@media (width < 1023px) {
+  .titulo {
+    margin-top: 0px;
+    padding-top: 40px;
+  }
+}
