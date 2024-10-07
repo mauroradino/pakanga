@@ -1,0 +1,20 @@
+.descripcionGiftDetalle {
+  font-size: 15px;
+  padding: 10px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.labelValorGift {
+  font-size: 15px;
+}
+.divInputValor {
+  display: flex;
+  gap: 10px;
+}
+.inputValor {
+  width: 100px;
+  padding: 5px;
+}
+.errorMessage {
+  margin-bottom: 20px;
+}

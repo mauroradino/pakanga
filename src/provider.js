@@ -5,6 +5,8 @@ import Context from './context';
 const Provider = ({ children }) => {
     const [productoSeleccionado, setProductoSeleccionado] = useState(0);
     const [carrito, setCarrito] = useState([])
+    const [logged, setLogged] = useState(false)
+    const [valorGift, setValorGift] = useState(0)
     const id = carrito.length + 1
 
     const agregarAlCarro = (numero, talle, color) => {
@@ -26,7 +28,7 @@ const Provider = ({ children }) => {
 
 
 
-    const datos = { productoSeleccionado, setProductoSeleccionado, carrito, agregarAlCarro, eliminarDelCarrito };
+    const datos = { productoSeleccionado, valorGift, setValorGift, logged, setLogged, setProductoSeleccionado, carrito, agregarAlCarro, eliminarDelCarrito };
 
     return (
         <Context.Provider value={datos}>

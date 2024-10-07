@@ -6,6 +6,9 @@ import Home from "./Views/HomePage/Home"
 import Details from "./Views/DetailsPage/Details";
 import CarritoPage from "./Views/CarritoPage/CarritoPage";
 import './App.css';
+import DetalleGift from "./Views/DetalleGift/DetalleGift";
+import AdminPage from "./Views/Admin/AdminPage";
+import Dashboard from "./Views/Dashboard/Dashboard";
 
 function App() {
   return (
@@ -16,6 +19,9 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/details" element={<Details />} />
           <Route path="/carrito" element={<CarritoPage />} />
+          <Route path="/detalle-gift" element={<DetalleGift />} />
+          <Route path="/admin" element={<AdminPage />} />
+          <Route path="/dashboard" element={<Dashboard />} />
         </Routes>
         <Footer />
       </Router>

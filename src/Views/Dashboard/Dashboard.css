@@ -1,0 +1,26 @@
+.mainDashboard {
+  display: flex;
+  justify-content: center;
+  background-color: #efefef;
+  height: calc(100% - 240px);
+  min-height: calc(100vh - 500px);
+  padding-bottom: 200px;
+  padding-top: 100px;
+  width: 100%;
+}
+.divDashboard {
+  display: flex;
+  flex-direction: column;
+}
+.buttonGenerar {
+  margin-top: 20px;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: black;
+  color: white;
+}
+.inputMonto {
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid black;
+}

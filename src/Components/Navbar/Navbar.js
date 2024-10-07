@@ -11,7 +11,7 @@ const Navbar = () => {
     return (
         <div>
             <div className="divMensajeHeader">
-                <p className="mensajeHeader">El precio incluye el estampado</p>
+                <p className="mensajeHeader">El precio (por unidad) incluye el estampado</p>
             </div>
             <header>
                 <Link to="/"><img src={logo} className="logoNav" alt="logo nav" /></Link>

@@ -9,6 +9,7 @@
   border: none;
   border-radius: 5px;
   color: white;
+  margin-top: 12px;
 }
 @media (width >= 1020px) {
   .cardCarrito {
@@ -26,6 +27,9 @@
   .tituloCardCarrito {
     font-size: 20px;
     margin-bottom: 10px;
+  }
+  .textoTalleColor {
+    font-size: 15px;
   }
 }
 @media (1019px >= width >= 768px) {
@@ -48,9 +52,13 @@
   }
   .tituloCardCarrito {
     font-size: 90%;
+    margin-bottom: 10px;
+  }
+  .textoTalleColor {
+    font-size: 12px;
   }
   .btnEliminar {
-    margin-top: 20px;
+    margin-top: 10px;
   }
   .btnEliminar:hover {
     transition: 0.4s;
@@ -67,6 +75,10 @@
   }
   .tituloCardCarrito {
     font-size: 15px;
+    margin-bottom: 12px;
+  }
+  .textoTalleColor {
+    font-size: 12px;
   }
   .imagenCardCarrito {
     width: 100%;

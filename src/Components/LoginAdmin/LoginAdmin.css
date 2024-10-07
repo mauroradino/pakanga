@@ -1,0 +1,29 @@
+.divInput {
+  display: flex;
+  flex-direction: column;
+}
+.inputMail {
+  padding: 10px;
+  width: 80%;
+  border-radius: 5px;
+  border: 1px solid gray;
+  outline: none;
+}
+.divLogin {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  margin: 0 auto;
+  gap: 20px;
+}
+label {
+  margin-bottom: 10px;
+}
+.loginBtn {
+  background-color: black;
+  padding: 10px 20px;
+  border-radius: 8px;
+  width: max-content;
+  color: white;
+  border: none;
+}

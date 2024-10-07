@@ -8,7 +8,6 @@ import "./ContenidoCarrito.css";
 
 const ContenidoCarrito = () => {
     const { carrito } = useContext(Context);
-
     return (
         <div className="divContenidoCarrito">
             {carrito.length !== 0 ? (
@@ -23,6 +22,8 @@ const ContenidoCarrito = () => {
                                     titulo={producto.titulo}
                                     precio={producto.precio}
                                     imagen={producto.imagen1}
+                                    color={compra.color}
+                                    talle={compra.talle}
                                 />
                             );
                         })}

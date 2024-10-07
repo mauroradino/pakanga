@@ -1,27 +1,283 @@
 [
-    {"titulo": "Joggins Unisex", "categoria": "Otros Productos", "precio": "20000", "imagen1": "Joggin Unisex.jpg", "descripcion": "Algodón con friza", "colores": ["black", "blue", "gray"]},
-    {"titulo": "Body Bebé", "talles":["0", "1", "2", "3", "4", "5", "6"], "categoria": "Otros Productos", "precio": "10000", "imagen1": "https://insumosabraham.com.ar/wp-content/uploads/2021/08/Body-algodon-blanco.jpg", "descripcion": "100% poliester", "colores": ["#FFFF", "gray"]},    
-
-    {"titulo": "Buzo Canguro", "talles":["S", "M", "L", "XL", "XXL"], "categoria": "Buzos", "precio": "30000", "imagen1": "Buzo Canguro con Friza.jpeg", "imagen2": "tallesBuzosAdultos.png", "descripcion": "Buzo de algodón con friza", "colores": ["black", "white", "blue", "gray", "green", "violet", "red", "brown"]},
-    {"titulo": "Buzo Cuello Redondo", "talles":["S", "M", "L", "XL", "XXL"], "categoria": "Buzos", "precio": "30000", "imagen1": "Buzo Cuello Redondo Unisex.jpeg", "imagen2": "tallesBuzosAdultos.png", "descripcion": "Buzo de algodón con friza", "colores": ["black", "white", "blue", "gray", "green", "violet", "red", "brown"]},
-    {"titulo": "Buzo Hoodie Oversize", "talles":["S", "M", "L", "XL", "XXL"], "categoria": "Buzos", "precio": "35000", "imagen1": "Buzo Hoodie con Friza.jpeg", "imagen2": "tallesOversize.png", "descripcion": "Buzo de algodón con friza", "colores": ["black", "white"]},
-    {"titulo": "Buzo Canguro Rustico", "talles":["S", "M", "L", "XL", "XXL"], "categoria": "Buzos", "precio": "35000", "imagen1": "Buzo Rustico.jpeg", "imagen2": "tallesBuzosAdultos.png", "descripcion": "Buzo de algodón", "colores": ["black", "white", "blue", "gray", "green", "violet", "red", "brown"]},
-    {"titulo": "Buzo Canguro Niño", "talles": ["4", "6", "8","10", "12", "14", "16" ], "categoria": "Buzos", "precio": "25000", "imagen1": "Buzo Canguro con Friza.jpeg", "imagen2": "tallesBuzosNiños.png", "descripcion": "Buzo de algodón con friza", "colores": ["black", "white", "blue", "gray", "green", "violet", "red", "brown"]},
-    {"titulo": "Buzo Cuello Redondo Niño", "talles": ["4", "6", "8","10", "12", "14", "16" ], "categoria": "Buzos", "precio": "25000", "imagen1": "Buzo Cuello Redondo Unisex.jpeg", "imagen2": "tallesBuzosNiños.png", "descripcion": "Buzo de algodón con friza", "colores": ["black", "white", "blue", "gray", "green", "violet", "red", "brown"]},
-
-    {"titulo": "Chomba Liviana", "talles":["S", "M", "L", "XL", "XXL"], "categoria": "Chombas", "precio": "25000", "imagen1": "https://http2.mlstatic.com/D_NQ_NP_816431-MLA45596646056_042021-O.webp", "imagen2": "", "descripcion": "Pique Nacional", "colores": ["white", "black", "blue", "green", "gray"]},
-    {"titulo": "Chomba Liviana Talle Especial", "talles":["XXXL"], "categoria": "Chombas", "precio": "27000", "imagen1": "https://http2.mlstatic.com/D_NQ_NP_816431-MLA45596646056_042021-O.webp", "imagen2": "", "descripcion": "Pique Nacional", "colores": ["white", "black", "blue", "green", "gray"]},
-    {"titulo": "Chomba", "talles":["S", "M", "L", "XL", "XXL"], "categoria": "Chombas", "precio": "28000", "imagen1": "https://http2.mlstatic.com/D_NQ_NP_816431-MLA45596646056_042021-O.webp", "imagen2": "", "descripcion": "Pique Importado", "colores": ["white", "black", "blue", "green", "gray"]},
-    {"titulo": "Chomba Talle Especial", "talles":["XXXL"], "categoria": "Chombas", "precio": "27000", "imagen1": "https://http2.mlstatic.com/D_NQ_NP_816431-MLA45596646056_042021-O.webp", "imagen2": "", "descripcion": "Pique Importado", "colores": ["white", "black", "blue", "green", "gray"]},
-
-    {"titulo": "Remeras Niños", "talles": ["4", "6", "8","10", "12", "14", "16" ], "categoria": "Remeras", "precio": "15000", "imagen1": "https://cdnlaol.laanonimaonline.com/webapp_webp/images/fotos/b/0000072000/41331_2.webp", "imagen2": "tallesAlgodonPeinado.png", "descripcion": "Remera de Algodon peinado 24.1", "colores": ["white", "black", "blue", "red"]},
-    {"titulo": "Remeras Ranglan Niños", "talles": ["4", "6", "8","10", "12", "14", "16" ], "categoria": "Remeras", "precio": "13000", "imagen1": "https://http2.mlstatic.com/D_NQ_NP_982484-MLA76328635231_052024-O.webp", "imagen2": "", "descripcion": "Remera Spum (Remera blanca, manga color) ", "colores": ["black", "blue", "green", "orange", "red", "lightblue"]},
-    {"titulo": "Remera Unisex", "talles":["S", "M", "L", "XL", "XXL"], "categoria": "Remeras", "precio": "20000", "imagen1": "Remera Unisex.jpeg", "imagen2": "tallesAlgodonPeinado.png", "descripcion": "Remera de Algodon peinado 24.1", "colores": ["#000080", "white", "gray", "black", "red", "#FF00FF", "#F5F5DC", "#556B2F"]},
-    {"titulo": "Remera Mujer", "talles":["S", "M", "L", "XL", "XXL"], "categoria": "Remeras", "precio": "20000", "imagen1": "Remera Mujer.jpeg", "imagen2": "tallesAlgodonPeinado.png", "descripcion": "Remera de Algodon peinado 24.1", "colores": ["gray", "red", "white", "black", "#556B2F", "#000080"]},
-    {"titulo": "Remera Oversize Unisex", "talles":["S", "M", "L", "XL", "XXL"], "categoria": "Remeras", "precio": "22000", "imagen1": "Remera Unisex Oversize.jpeg", "imagen2": "tallesAlgodonPeinado.png", "descripcion": "Remera de Algodon peinado 24.1", "colores": ["#C71585", "white", "#F5F5DC", "#00FF00", "black"]},
-    {"titulo": "Remera Modal", "talles":["S", "M", "L", "XL", "XXL"], "categoria": "Remeras", "precio": "20000", "imagen1": "https://monarqui.com.ar/wp-content/uploads/remera-gris-lisa.png", "imagen2": "", "descripcion": "Remera Modal con lycra", "colores": ["white"]},
-    {"titulo": "Remera Talle Especial", "talles":["XXXL"], "categoria": "Remeras", "precio": "20000", "imagen1": "Remera Talle Especial.jpeg", "imagen2": "tallesAlgodonPeinado.png", "descripcion": "Remera de Algodon peinado 24.1", "colores": ["black", "white"]},
-
-    {"titulo": "Piluso", "categoria": "Accesorios", "precio": "12000", "imagen1": "https://http2.mlstatic.com/D_NQ_NP_982474-MLA71753572614_092023-O.webp", "descripcion": "Piluso", "colores": ["black", "pink", "red", "blue", "white"]},
-    {"titulo": "Gorra", "categoria": "Accesorios", "precio": "12000", "imagen1": "gorra.webp", "descripcion": "Gorras Trackers", "colores": ["red", "yellow", "black"]}
-]
+    {
+      "titulo": "Joggins Unisex",
+      "categoria": "Otros Productos",
+      "precio": 25000,
+      "imagen1": "nfrkn3f9dj10jpmaihrw",
+      "descripcion": "Algodón con friza",
+      "colores": ["#000000", "#808080", "#0000FF"],
+      "talles": ["S", "M", "L", "XL", "XXL"]
+    },
+    {
+      "titulo": "Body Bebé",
+      "categoria": "Otros Productos",
+      "precio": "10000",
+      "imagen1": "qvfpliaq3tlruvdxqu72",
+      "descripcion": "100% poliester",
+      "colores": ["#FFFFFF","#808080"],
+      "talles": ["0", "2", "4", "6"]
+    },
+    {
+      "titulo": "Delantal",
+      "categoria": "Otros Productos",
+      "precio": "15000",
+      "imagen1": "rqa4hceytggoxmvmowpm",
+      "descripcion": "Delantal de gabardina",
+      "colores": ["#000000", "#0000FF", "#008000"]
+    },
+    {
+      "titulo": "Bermuda",
+      "categoria": "Otros Productos",
+      "precio": "20000",
+      "imagen1": "pgq3zxps2rtmkrobwnsi",
+      "descripcion": "Bermuda rustica",
+      "colores": ["#000000", "#808080", "#0000FF"],
+      "talles": ["S", "M", "L", "XL", "XXL"]
+    },
+    {
+      "titulo": "Buzo cuello redondo rustico",
+      "categoria": "Buzos",
+      "precio": "25000",
+      "imagen1": "pew66nkjvibqh3xaetcp",
+      "descripcion": "Buzo liviano ",
+      "colores": ["#000000","#808080"],
+      "talles": ["S", "M", "L", "XL", "XXL"]
+    },
+    {
+      "titulo": "Buzo Canguro",
+      "categoria": "Buzos",
+      "precio": "30000",
+      "imagen1": "fpo6d2ojmmkgiki5md2v",
+      "descripcion": "Buzo de algodón con friza",
+      "colores": ["#B7B7B7", "#FFA500", "#8A2BE2", "#FFC0CB", "#40E0D0", "#0F4C81", "#4B5320", "#FFFFFF", "#000000", "#FF00FF", "#87CEEB", "#8A9A5B", "#E6E6FA", "#FF0000", "#FAF3E0", "#7CB9E8", "#1E90FF"],
+      "talles": ["S", "M", "L", "XL", "XXL"]
+    },
+    {
+      "titulo": "Buzo Cuello Redondo",
+      "categoria": "Buzos",
+      "precio": "30000",
+      "imagen1": "m9alalwumfcaajr6tl9c",
+      "descripcion": "Buzo de algodón con friza",
+      "colores": ["#000000","#808080"],
+      "talles": ["S", "M", "L", "XL", "XXL"]
+    },
+    {
+      "titulo": "Buzo Hoodie Oversize",
+      "categoria": "Buzos",
+      "precio": "35000",
+      "imagen1": "bublh3fmvp0pcwoqrhwk",
+      "descripcion": "Buzo de algodón con friza",
+      "colores": ["FFFFFF","#000000"],
+      "talles": ["S", "M", "L"]
+    },
+    {
+      "titulo": "Buzo Canguro Rustico",
+      "categoria": "Buzos",
+      "precio": "30000",
+      "imagen1": "wyy5qeoteoiqgh0gdi8s",
+      "descripcion": "Buzo de algodón",
+      "colores": ["#B7B7B7", "#FFA500", "#8A2BE2", "#FFC0CB", "#40E0D0", "#0F4C81", "#4B5320", "#FFFFFF", "#000000", "#FF00FF", "#87CEEB", "#8A9A5B", "#E6E6FA", "#FF0000", "#FAF3E0", "#7CB9E8", "#1E90FF"],
+      "talles": ["S", "M", "L", "XL", "XXL"]
+    },
+    {
+      "titulo": "Buzo Canguro Niño",
+      "categoria": "Buzos",
+      "precio": "25000",
+      "imagen1": "fpo6d2ojmmkgiki5md2v",
+      "descripcion": "Buzo de algodón con friza",
+      "colores": ["#B7B7B7", "#FFA500", "#8A2BE2", "#FFC0CB", "#40E0D0", "#0F4C81", "#4B5320", "#FFFFFF", "#000000", "#FF00FF", "#87CEEB", "#8A9A5B", "#E6E6FA", "#FF0000", "#FAF3E0", "#7CB9E8", "#1E90FF"],
+      "talles": ["S", "M", "L", "XL", "XXL"]
+    },
+    {
+      "titulo": "Buzo Cuello Redondo Niño",
+      "categoria": "Buzos",
+      "precio": "25000",
+      "imagen1": "m9alalwumfcaajr6tl9c",
+      "descripcion": "Buzo de algodón con friza",
+      "colores": ["#000000", "#FFFFFF"],
+      "talles": ["S", "M", "L", "XL", "XXL"]
+    },
+    {
+      "titulo": "Chaleco rustico",
+      "categoria": "Buzos",
+      "precio": "25000",
+      "imagen1": "ldotsizgbi2fzsemnwji",
+      "descripcion": "chaleco con capucha liviano ",
+      "colores": ["#000000","#FFFFFF"],
+      "talles": ["S", "M", "L", "XL", "XXL"]
+    },
+    {
+      "titulo": "Buzo canguro rustico ",
+      "categoria": "Buzos",
+      "precio": "30000",
+      "imagen1": "mzl74aowc39hbybwdfod",
+      "descripcion": "Buzo  con capucha y bolsillo liviano ",
+      "colores": ["#B7B7B7", "#FFA500", "#8A2BE2", "#FFC0CB", "#40E0D0", "#0F4C81", "#4B5320", "#FFFFFF", "#000000", "#FF00FF", "#87CEEB", "#8A9A5B", "#E6E6FA", "#FF0000", "#FAF3E0", "#7CB9E8", "#1E90FF"],
+      "talles": ["S", "M", "L", "XL", "XXL"]
+    },
+    {
+      "titulo": "Chomba Liviana",
+      "categoria": "Chombas",
+      "precio": "25000",
+      "imagen1": "mfzehfgjqzlmifusqzw1",
+      "descripcion": "Pique Nacional",
+      "colores": ["#FFFFFF", "#000000", "#0000FF", "#FF0000", "#808080"],
+      "talles": ["S", "M", "L", "XL", "XXL"]
+    },
+    {
+      "titulo": "Chomba Liviana Talle Especial",
+      "categoria": "Chombas",
+      "precio": "27000",
+      "imagen1": "mfzehfgjqzlmifusqzw1",
+      "descripcion": "Pique Nacional",
+      "colores": ["#FFFFFF","#000000","#0000FF","#FF0000","#808080"],
+      "talles": ["S", "M", "L", "XL", "XXL"]
+    },
+    {
+      "titulo": "Chomba",
+      "categoria": "Chombas",
+      "precio": "28000",
+      "imagen1": "mfzehfgjqzlmifusqzw1",
+      "descripcion": "Pique Importado",
+      "colores": ["#FFFFFF","#000000","#0000FF","#FF0000","#808080"],
+      "talles": ["S", "M", "L", "XL", "XXL"]
+    },
+    {
+      "titulo": "Chomba Talle Especial",
+      "categoria": "Chombas",
+      "precio": "27000",
+      "imagen1": "mfzehfgjqzlmifusqzw1",
+      "descripcion": "Pique Importado",
+      "colores": ["#FFFFFF","#000000","#0000FF","#FF0000","#808080"],
+      "talles": ["6", "7", "8"]
+    },
+    {
+      "titulo": "Remeras Niños",
+      "categoria": "Remeras",
+      "precio": "15000",
+      "imagen1": "xgjgedxxw9y0vkmwt4th",
+      "descripcion": "Remera de Algodon peinado 24.1",
+      "colores": ["#FFFFFF", "#000000", "#0000FF", "#008000", "#FF0000", "#B7B7B7", "#FFA500", "#FFC0CB", "#8A2BE2"],
+      "talles": ["6", "8", "10", "12", "14", "16"]
+    },
+    {
+      "titulo": "Remeras Ranglan Niños",
+      "categoria": "Remeras",
+      "precio": "13000",
+      "imagen1": "fc1kq2jlioobc4dtplve",
+      "descripcion": "Remera Spum (Remera blanca, manga color) ",
+      "colores": ["#000000", "#0000FF", "#FF0000", "#009950", "#FFA500"],
+      "talles": ["4", "6", "8", "10", "12"]
+    },
+    {
+      "titulo": "Remera Unisex",
+      "categoria": "Remeras",
+      "precio": "20000",
+      "imagen1": "vqrtejl9qaeiqmbsx6qz",
+      "descripcion": "Remera de Algodon peinado 24.1",
+      "colores": ["#FFFFFF", "#000000", "#B7B7B7", "#FAF3E0", "#0000FF", "#1E90FF", "#4B5320", "#274E13", "#00FFCC", "#FF0000", "#8A2BE2", "#C8A2C8", "#FFC0CB", "#FF00FF", "#FFA500", "#D2B48C", "#C19A6B", "#E5D5C5"],
+      "talles": ["S", "M", "L", "XL", "XXL"]
+    },
+    {
+      "titulo": "Remera Mujer",
+      "categoria": "Remeras",
+      "precio": "20000",
+      "imagen1": "dyqc6bjahgtbpsrs0szl",
+      "descripcion": "Remera de Algodon peinado 24.1",
+      "colores": ["#FFFFFF", "#000000", "#B7B7B7", "#EAE0C8", "#0F4C81", "#FF0000", "#800000", "#FF00FF", "#D1E231", "#FF00FF", "#008000", "#FFA500", "#E6E6FA"], 
+      "talles": ["S", "M", "L", "XL", "XXL"]
+    },
+    {
+      "titulo": "Remera Oversize Unisex",
+      "categoria": "Remeras",
+      "precio": "22000",
+      "imagen1": "wazepxdew6rnwilz86or",
+      "descripcion": "Remera de Algodon peinado 24.1",
+      "colores": ["#FFFFFF", "#000000", "#C08081", "#87CEEB", "#32CD32", "#F5F5DC"],
+      "talles": ["S", "M", "L", "XL", "XXL"]
+    },
+    {
+      "titulo": "Remera Modal",
+      "categoria": "Remeras",
+      "precio": "20000",
+      "imagen1": "vymio3caxvkbqtpzdadl",
+      "descripcion": "Remera Modal con lycra",
+      "colores": ["#FFFFFF", "#000000", "#808080"],
+      "talles": ["S", "M", "L", "XL", "XXL"]
+    },
+    {
+      "titulo": "Remera Talle Especial",
+      "categoria": "Remeras",
+      "precio": "20000",
+      "imagen1": "n0clznx4jfwptdzuov2b",
+      "descripcion": "Remera de Algodon peinado 24.1",
+      "colores": ["#FFFFFF", "#000000", "#808080", "#0000FF" ,"#FF0000", "#87CEEB", "#008000"],
+      "talles": ["6", "7", "8"]
+    },
+    {
+      "titulo": "Remeras dama escote en V",
+      "categoria": "Remeras",
+      "precio": "20000",
+      "imagen1": "zt2bwjw0nk8xqlod6txx",
+      "descripcion": "Remera escote en V de algodon"
+    },
+    {
+      "titulo": "Crop top",
+      "categoria": "Remeras",
+      "precio": "15000",
+      "imagen1": "tf851nhhzk7zfm7v9h54",
+      "descripcion": "Remera croptop de algodon",
+      "colores": ["#FFFFFF", "#000000", "#4B5320", "#C19A6B", "#FF00FF", "#FFDAB9", "#C8A2C8", "#87CEEB", "#FA8072", "#FAF3E0", "#00FFFF", "#808000", "#E5E5E5", "#FFC0CB"],
+      "talles": ["S", "M", "L", "XL"]
+    },
+    {
+      "titulo": "Remera sin manga",
+      "categoria": "Remeras",
+      "precio": "20000",
+      "imagen1": "bhwutcyyfaaljaqeuuyd",
+      "descripcion": "remera sin mangas",
+      "colores": ["#000000", "#FFFFFF", "#B7B7B7", "#4B5320", "#C19A6B", "#FAF3E0", "#C8A2C8", "#FFC0CB", "#274E13", "#7CB9E8", "#F3E5AB"],
+      "talles": ["S", "M", "L", "XL", "XXL"]
+    },
+    {
+      "titulo": "Musculosa Hombre",
+      "categoria": "Remeras",
+      "precio": "15000",
+      "imagen1": "bhwutcyyfaaljaqeuuyd",
+      "descripcion": "remera musculosa",
+      "colores": ["#FFFFFF", "#000000", "#0000FF", "#808080"],
+      "talles": ["S", "M", "L", "XL", "XXL"]
+    },
+    {
+      "titulo": "Musculosa Mujer",
+      "categoria": "Remeras",
+      "precio": "15000",
+      "imagen1": "wi2rhjdosbigu6rokrs4",
+      "descripcion": "remera musculosa",
+      "colores": ["#FFFFFF", "#000000", "#808080"],
+      "talles": ["S", "M", "L", "XL", "XXL"]
+    },
+    {
+      "titulo": "Piluso",
+      "categoria": "Accesorios",
+      "precio": "12000",
+      "imagen1": "p677hca1jbwavdfphbbu",
+      "descripcion": "Piluso"
+    },
+    {
+      "titulo": "Gorra",
+      "categoria": "Accesorios",
+      "precio": "12000",
+      "imagen1": "l2vsiupy2vbpfxiyt4fz",
+      "descripcion": "Gorras Trackers"
+    },
+    {
+      "titulo": "Campera rustica",
+      "categoria": "Buzos",
+      "precio": 30000,
+      "imagen1": "bminnsky4mzm6k3c1gnb",
+      "descripcion": "Campera rustica de algodon",
+      "colores": ["#000000"],
+      "talles": ["S", "M", "L", "XL", "XXL"]
+    }
+  ]

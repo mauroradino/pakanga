@@ -27,6 +27,12 @@ hr {
 .precioTotal {
   margin-top: 20px;
 }
+.inputCodigo {
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid black;
+  margin-top: 10px;
+}
 @media (500px > width) {
   .divTicket {
     transform: scale(0.8);
