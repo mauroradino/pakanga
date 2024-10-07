@@ -123,7 +123,7 @@ const Ticket = ({ carrito }) => {
                     text: "Compra confirmada.",
                     icon: "success"
                 });
-                const url = `https://api.whatsapp.com/send?phone=541125821249&text=${encodeURIComponent(message)}`;
+                const url = `https://api.whatsapp.com/send?phone=${+541135045728}&text=${encodeURIComponent(message)}`;
                 window.open(url, '_blank');
             }
         });
