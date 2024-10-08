@@ -47,7 +47,7 @@
       "titulo": "Buzo Canguro",
       "categoria": "Buzos",
       "precio": "30000",
-      "imagen1": "fpo6d2ojmmkgiki5md2v",
+      "imagen1": "btjtxpi9ydz4gafmnlcp",
       "descripcion": "Buzo de algodón con friza",
       "colores": ["#B7B7B7", "#FFA500", "#8A2BE2", "#FFC0CB", "#40E0D0", "#0F4C81", "#4B5320", "#FFFFFF", "#000000", "#FF00FF", "#87CEEB", "#8A9A5B", "#E6E6FA", "#FF0000", "#FAF3E0", "#7CB9E8", "#1E90FF"],
       "talles": ["S", "M", "L", "XL", "XXL"]
@@ -59,6 +59,24 @@
       "imagen1": "m9alalwumfcaajr6tl9c",
       "descripcion": "Buzo de algodón con friza",
       "colores": ["#000000","#808080"],
+      "talles": ["S", "M", "L", "XL", "XXL"]
+    },
+    {
+      "titulo": "Musculosa Unisex",
+      "categoria": "Remeras",
+      "colores": [],
+      "descripcion": "",
+      "imagen1": "e27sxfwo6zkj17ueoin3",
+      "precio": "",
+      "talles": []
+    },
+    {
+      "titulo": "Remera Batik",
+      "categoria": "Remeras",
+      "colores": ["#000000", "#ADD8E6", "#FFC0CB"],
+      "descripcion": "Remera de algodón batik",
+      "imagen1": "x4krtlydx3asyen4tyhq",
+      "precio": "24000",
       "talles": ["S", "M", "L", "XL", "XXL"]
     },
     {
@@ -111,7 +129,7 @@
       "categoria": "Buzos",
       "precio": "30000",
       "imagen1": "mzl74aowc39hbybwdfod",
-      "descripcion": "Buzo  con capucha y bolsillo liviano ",
+      "descripcion": "Buzo con capucha y bolsillo liviano ",
       "colores": ["#B7B7B7", "#FFA500", "#8A2BE2", "#FFC0CB", "#40E0D0", "#0F4C81", "#4B5320", "#FFFFFF", "#000000", "#FF00FF", "#87CEEB", "#8A9A5B", "#E6E6FA", "#FF0000", "#FAF3E0", "#7CB9E8", "#1E90FF"],
       "talles": ["S", "M", "L", "XL", "XXL"]
     },
