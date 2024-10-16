@@ -85,7 +85,6 @@ const Ticket = ({ carrito }) => {
                         await deleteDoc(docRef);
                         confirmarCompra(monto);
                     } catch (error) {
-                        console.error('Error al eliminar el documento: ', error);
                         Swal.fire({
                             title: "Error",
                             text: "Hubo un problema al eliminar el código de descuento.",

@@ -64,11 +64,11 @@
     {
       "titulo": "Musculosa Unisex",
       "categoria": "Remeras",
-      "colores": [],
-      "descripcion": "",
+      "colores": ["#000000", "#FFFFFF", "#636363"],
+      "descripcion": "Musculosa Unisex",
       "imagen1": "e27sxfwo6zkj17ueoin3",
-      "precio": "",
-      "talles": []
+      "precio": "15000",
+      "talles": ["S","M","L","XL","XXL"]
     },
     {
       "titulo": "Remera Batik",

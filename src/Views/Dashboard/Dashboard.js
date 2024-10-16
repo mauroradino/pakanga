@@ -45,13 +45,11 @@ const Dashboard = () => {
 
         // Si el código es válido, agrégalo a la base de datos
         try {
-            const docRef = await addDoc(collection(db, "codigosGift"), {
+            await addDoc(collection(db, "codigosGift"), {
                 codigo: codigo,
                 monto: monto
             });
-            console.log("Documento escrito con ID: ", docRef.id);
         } catch (e) {
-            console.error("Error agregando documento: ", e);
         }
     }
 
